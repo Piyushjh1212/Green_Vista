@@ -31,7 +31,7 @@ export default function Signup() {
       </div>
 
       <div className="image-section">
-        <img src="jksfjds.jpg" alt="Sign up visual" />
+        <img src="./Login.png" alt="Sign up visual" />
       </div>
     </div>
   );

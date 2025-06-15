@@ -1,42 +1,46 @@
-import React from 'react';
-import './HomePage.css';
-import ShowcasePage from './Plansthowcase/Plantshowcase';
+import React from "react";
+import "./HomePage.css";
+import ShowcasePage from "./Plansthowcase/Plantshowcase";
 
-const HomePage = () => {
+export default function HomePage() {
   return (
     <>
-      
-      <main className="home-container">
-        <section className="hero">
-          <h1>Welcome to Green Vista 🌿</h1>
-          <p>Your curated space to discover and showcase beautiful greenery.</p>
-          <a href="#showcase" className="cta-button">Explore Now</a>
-        </section>
+      <div className="home-container">
+        <img
+          src="https://www.shutterstock.com/image-photo/raised-bed-various-herbs-lettuce-260nw-2479147867.jpg"
+          alt="Profile"
+          className="profile-image"
+        />
 
-        <section id="showcase" className="section">
-          <h2>🌱 Plant Showcase</h2>
-          <p>Discover a collection of curated plant displays and indoor jungles.</p>
-          {/* Placeholder for dynamic plant cards */}
-        </section>
+        <div
+          className="left-image"
+          style={{
+            backgroundImage: `url(${"https://plus.unsplash.com/premium_photo-1664116928607-896124327b11?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBncmFzc3xlbnwwfHwwfHx8MA%3D%3D"})`,
+          }}
+        ></div>
 
-        <section id="features" className="section features">
-          <h2>✨ Features</h2>
-          <ul>
-            <li>🪴 Interactive plant display</li>
-            <li>📷 Visual galleries</li>
-            <li>📊 Growth and care tracking</li>
-          </ul>
-        </section>
+        <div className="right-content">
+          <div className="profile-card">
+            <div className="text-content">
+              <h4 className="subtitle">Green-Vista</h4>
+              <h1 className="title">
+                An Informational
+                <br />
+                Garden
+              </h1>
+              <p className="description">
+                This group’s mission is “to train and prepare low-income,
+                unemployed, underemployed, unskilled workforce for a career in
+                the field of the emerging green-collar jobs industry with an
+                emphasis on practices such as sustainability.
+              </p>
 
-        <section id="contact" className="section contact">
-          <h2>📬 Contact Us</h2>
-          <p>Have questions or ideas? Let's grow together!</p>
-        </section>
-      </main>
-
+              <button className="read-button">read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <ShowcasePage/>
     </>
   );
-};
-
-export default HomePage;
+}

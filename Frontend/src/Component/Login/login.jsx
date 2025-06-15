@@ -38,7 +38,7 @@ export default function Login() {
       </div>
 
       <div className="image-section">
-        <img src='Piyush.png' alt="Support" />
+        <img src='./Login.png' alt="Support" />
       </div>
     </div>
   );
