@@ -1,0 +1,109 @@
+/* Top Ayurveda Title Container */
+.Showcase_top-container {
+  padding: 30px;
+  margin: 20px;
+  background-color: #7d8f839f; /* Light green */
+  border-radius: 10px;
+  font-family: 'Georgia', serif;
+  color: #2e7d32;
+}
+
+.Showcase_top-container h1{
+  text-align: center;
+  color: #2e7d32;
+  text-decoration: underline;
+}
+
+/* Styling for markdown-rendered text */
+.Showcase_top-container {
+  background-color: #5ee44949; /* soft green */
+  padding: 30px 25px;
+  margin: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 128, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e7d32;
+  line-height: 1.75;
+}
+
+.Showcase_top-container p {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.Showcase_top-container strong {
+  font-weight: 600;
+  color: #1b5e20;
+}
+
+.Showcase_top-container em {
+  font-style: italic;
+  color: #5d4037;
+}
+
+.Showcase_top-container ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.Showcase_top-container li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+}
+
+
+
+
+/* Grid Container */
+.showcase-container {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.showcase-container h1 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #388e3c;
+}
+
+/* Plant Cards */
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.plant-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fafafa;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.plant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.plant-card h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #1b5e20;
+}
+
+.plant-card p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
