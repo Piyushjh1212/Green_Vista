@@ -1,7 +1,11 @@
 import React from 'react';
-import './Header.css';
+import '../Styles/Header.css';
 
 const Header = () => {
+
+  const HandleLoginPage = () =>{
+    window.location.href = "/Login"
+  }
   return (
     <header className="green-vista-header">
       <div className="logo">🌿 Green Vista</div>
@@ -10,7 +14,9 @@ const Header = () => {
         <a href="#showcase">Showcase</a>
         <a href="#features">Features</a>
         <a href="#contact">Contact</a>
+        <button className='Login_btn' onClick={HandleLoginPage}>login</button>
       </nav>
+      
     </header>
   );
 };
