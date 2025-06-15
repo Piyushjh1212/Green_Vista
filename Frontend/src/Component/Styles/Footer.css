@@ -1,0 +1,97 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #e8f5e9; /* your requested color */
+  padding: 50px 80px;
+  font-family: 'Arial', sans-serif;
+  color: #000;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.footer-left h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.email-subscribe {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.email-subscribe input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  font-size: 16px;
+  outline: none;
+}
+
+.email-subscribe button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px; /* space between two columns */
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links li:hover {
+  color: #00796b; /* subtle hover effect */
+}
+
+.country-select {
+  padding: 10px;
+  border: 1px solid #000;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+}
