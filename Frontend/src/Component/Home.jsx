@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import ShowcasePage from "./Plansthowcase/Plantshowcase";
+import Contact from "./Contact";
 
 export default function HomePage() {
   return (
@@ -41,6 +42,7 @@ export default function HomePage() {
         </div>
       </div>
       <ShowcasePage/>
+      <Contact/>
     </>
   );
 }
